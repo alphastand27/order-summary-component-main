@@ -5,11 +5,11 @@
   <!-- displays site properly based on user's device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <title>Order summary card</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main id="component">
@@ -18,25 +18,25 @@
     </section>
     <section id="heading">
       <h1 class="bold">Order Summary</h1>
-      <p id="explana">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      <p id="explanation">You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!</p>
     </section>
     <section id="pricing">
       <img src="images/icon-music.svg" alt="music symbol icon">
       <section id="price-plan">
-        <h2 class="bold">Annual Plan</h2>
+        <p class="bold">Annual Plan</p>
         <p id="price">$59.99/year</p>
       </section>
       <p id="change">Change</p>
     </section>
     <section id="button">
       <button type="submit" id="Proceed-button">Proceed to Payment</button>
-      <button type="button" id="Cancel-button">Cancel Order</button>
+      <p type="button" id="Cancel-button">Cancel Order</p>
     </section>
   </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Micheal</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/alphastand27" target="_blank">Micheal</a>.
   </footer>
 </body>
 </html>
